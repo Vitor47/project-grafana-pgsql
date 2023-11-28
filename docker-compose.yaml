@@ -1,0 +1,31 @@
+version: '3.7'
+services:
+  grafana:
+    container_name: grafana
+    restart: unless-stopped
+    image: grafana/grafana-enterprise
+    volumes:
+      - 'grafana_storage:/var/lib/grafana'
+    ports:
+      - '3000:3000'
+    networks:
+      - custom-nw
+
+  postgres:
+    container_name: postgresql
+    restart: unless-stopped
+    image: postgres
+    volumes:
+      - './init-scripts/base.sql:/docker-entrypoint-initdb.d/base.sql'
+      - 'data:/var/lib/postgresql/data'
+    networks:
+      - custom-nw
+    environment:
+      POSTGRES_PASSWORD: 123456
+
+networks:
+  custom-nw:
+
+volumes:
+  grafana_storage: {}
+  data: {}

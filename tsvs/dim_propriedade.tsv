@@ -1,0 +1,101 @@
+id	titulo	local	tipo	num_quartos	num_banheiros	max_hospedes	permite_pets	pontuacao
+1	Metz Group	42 Haas Terrace	2	1	1	9	FALSE	5
+2	West, Schamberger and Little	7 Westridge Point	5	7	1	4	TRUE	3
+3	Dicki-Blick	04 Washington Hill	1	7	1	7	FALSE	4
+4	Bradtke-Durgan	1 Mesta Place	5	4	1	8	TRUE	5
+5	Turner Inc	653 Union Junction	5	6	1	6	TRUE	5
+6	Labadie Inc	52123 Knutson Parkway	1	2	3	6	FALSE	5
+7	Schimmel Group	1751 American Hill	1	5	2	9	TRUE	4
+8	Hintz, Gleason and Dickens	39 Graedel Trail	2	2	3	2	TRUE	3
+9	Beer-Hansen	019 Laurel Junction	1	6	2	6	TRUE	5
+10	Weimann-Torphy	009 Browning Street	2	6	2	6	TRUE	4
+11	Gleichner, Bergnaum and O'Hara	96208 Scott Center	2	6	1	3	TRUE	4
+12	Brekke and Sons	92 Derek Plaza	2	4	2	8	FALSE	5
+13	Hegmann-Hayes	08140 Logan Way	3	6	2	8	TRUE	3
+14	Ruecker Inc	55 Delaware Pass	1	2	3	4	FALSE	4
+15	Jenkins LLC	3 Kings Lane	3	3	1	2	TRUE	3
+16	Feest, Kautzer and Oberbrunner	994 Tomscot Road	4	6	2	2	TRUE	5
+17	Satterfield LLC	29 School Circle	1	1	1	2	TRUE	5
+18	Olson-Greenfelder	2 Scofield Way	1	6	3	1	FALSE	5
+19	Rolfson-Walker	428 Linden Avenue	4	4	2	8	FALSE	3
+20	Koelpin, Walter and Lakin	243 Corben Crossing	5	4	3	6	TRUE	5
+21	Halvorson-Walter	8954 Kipling Crossing	5	3	1	9	TRUE	3
+22	Fahey Inc	8 Swallow Avenue	1	1	1	9	FALSE	3
+23	Christiansen, Davis and Hermann	6342 Algoma Center	5	7	2	2	TRUE	3
+24	Bogan and Sons	0049 Nobel Terrace	3	4	3	2	TRUE	3
+25	Bogan and Sons	63613 Westport Road	1	1	1	8	TRUE	4
+26	Cole-Deckow	7 Emmet Drive	3	5	3	8	TRUE	3
+27	Skiles, Bahringer and McDermott	856 Grover Parkway	2	7	2	1	TRUE	3
+28	Ratke and Sons	161 Melrose Street	3	7	1	4	TRUE	4
+29	Larson Group	32 Gina Road	3	4	1	6	TRUE	5
+30	Vandervort Group	8241 Hollow Ridge Circle	3	3	1	5	TRUE	3
+31	Lindgren, Jenkins and Kohler	00253 Golf Circle	4	6	2	9	TRUE	4
+32	Cremin Inc	9246 East Hill	4	4	2	2	TRUE	4
+33	Beatty-Raynor	1272 Southridge Circle	4	1	2	6	TRUE	5
+34	Emard-Huel	54 Mariners Cove Alley	4	1	1	8	FALSE	4
+35	Weimann-Halvorson	3 Nobel Court	5	6	2	4	FALSE	4
+36	Toy-Johns	79 Ludington Center	2	3	1	3	TRUE	3
+37	Hayes, Batz and Hermiston	58 Twin Pines Place	4	1	2	3	TRUE	4
+38	Glover-Marks	67 Bluestem Drive	3	4	2	2	TRUE	5
+39	Wisoky, Stamm and Towne	7 Monica Circle	4	3	3	9	TRUE	4
+40	Keeling, Quigley and Cole	1 Birchwood Terrace	2	4	3	8	FALSE	5
+41	Koepp LLC	073 Express Crossing	2	6	3	7	TRUE	5
+42	Kertzmann-Lindgren	0 Portage Lane	4	7	3	4	TRUE	3
+43	Maggio Group	55 Homewood Road	2	1	2	2	TRUE	4
+44	Schmeler, Terry and Kozey	5 Longview Trail	5	1	3	2	TRUE	3
+45	Lockman-Casper	61013 Haas Avenue	1	5	3	4	TRUE	4
+46	Funk-Walter	24 Pond Drive	5	7	1	8	TRUE	5
+47	Marvin Inc	55 Rutledge Center	5	3	1	9	TRUE	4
+48	Hoppe-Zemlak	676 Lunder Circle	5	4	3	7	FALSE	3
+49	Stehr, Deckow and Kuhic	60 Comanche Place	2	1	3	3	TRUE	5
+50	Aufderhar, Ward and Bauch	3792 East Street	3	5	1	9	TRUE	4
+51	Schmitt, VonRueden and Carter	97 Dottie Lane	3	2	3	6	TRUE	5
+52	Willms, Conn and Kessler	0 Meadow Vale Junction	5	6	1	6	TRUE	5
+53	Tremblay, King and Larkin	38 Cambridge Alley	3	5	3	6	FALSE	4
+54	Bruen, Pfeffer and Farrell	89950 Morningstar Drive	2	5	3	5	TRUE	4
+55	Gulgowski LLC	337 Farragut Court	5	3	1	3	TRUE	5
+56	Hartmann, Leuschke and Miller	5298 Farmco Plaza	2	4	2	1	TRUE	5
+57	Waelchi-Lynch	6273 Miller Point	2	7	1	2	TRUE	4
+58	Green-Dibbert	65 Bultman Hill	3	6	2	4	TRUE	5
+59	McLaughlin, Ebert and Runte	2 Ludington Circle	4	6	1	1	FALSE	5
+60	Heathcote, Mraz and Keebler	75 Gerald Parkway	2	3	3	6	TRUE	4
+61	Aufderhar-Nikolaus	283 Maywood Hill	3	7	2	9	TRUE	4
+62	Runolfsdottir-Mante	49060 Carpenter Way	5	7	2	4	TRUE	3
+63	Macejkovic-Ankunding	842 Golf View Plaza	5	3	3	1	TRUE	4
+64	Sanford Inc	3 Kensington Hill	3	2	1	9	TRUE	3
+65	Macejkovic Group	74479 Hoffman Court	3	4	2	2	FALSE	4
+66	Homenick, Heaney and Kihn	4988 Talisman Center	4	6	3	6	FALSE	5
+67	Ledner Inc	0 Roth Drive	5	3	3	4	TRUE	4
+68	Smitham and Sons	3066 Eastlawn Pass	4	3	2	4	TRUE	4
+69	Jakubowski Inc	9929 Miller Place	2	5	3	7	TRUE	4
+70	Renner, Thompson and Kuhn	9 Artisan Center	4	1	3	5	TRUE	3
+71	Hodkiewicz-Nicolas	990 Grover Drive	2	3	2	6	TRUE	5
+72	Powlowski Group	8 Claremont Crossing	1	6	2	2	FALSE	5
+73	Graham-McLaughlin	6 Glendale Point	1	7	1	5	TRUE	5
+74	Miller and Sons	2049 Thompson Point	3	4	3	5	TRUE	4
+75	McCullough-Sipes	875 Oak Valley Road	3	1	2	5	FALSE	3
+76	Bergnaum, O'Conner and Upton	3474 Westridge Parkway	5	7	3	8	TRUE	5
+77	Koelpin Inc	9 Tomscot Place	3	2	2	1	TRUE	3
+78	Waelchi-Mueller	91 Banding Circle	3	5	2	2	TRUE	3
+79	Jacobson, Casper and Moore	0 Muir Court	1	4	1	5	TRUE	4
+80	Erdman, Okuneva and Rodriguez	18 Melrose Parkway	3	1	2	7	FALSE	3
+81	Howe-Schneider	9 Fremont Terrace	2	6	1	8	TRUE	4
+82	Schamberger, Murray and Fadel	0 Mosinee Trail	5	4	2	5	FALSE	3
+83	Jacobson-Reilly	74408 Rigney Road	2	4	2	8	FALSE	5
+84	Orn-Satterfield	0 Prentice Crossing	1	3	2	2	TRUE	4
+85	Gulgowski, Jerde and Rempel	4263 Pond Place	3	2	1	3	TRUE	4
+86	Orn-Littel	3391 Jana Street	4	3	3	5	TRUE	4
+87	Kling-Thompson	9816 Miller Lane	3	7	1	6	TRUE	5
+88	Schiller, Bednar and Rempel	089 Fallview Parkway	1	7	3	4	TRUE	3
+89	Wiza Inc	550 Kipling Center	2	6	1	5	TRUE	5
+90	Ernser-Kub	0590 Pankratz Road	4	2	1	6	FALSE	5
+91	Champlin-Reichert	439 Service Way	5	6	3	1	TRUE	3
+92	Gislason, Adams and O'Reilly	66698 Eagan Terrace	5	5	1	1	TRUE	4
+93	Dickinson Inc	02 Swallow Drive	4	3	3	8	TRUE	4
+94	Adams-Schmidt	812 Vera Center	1	6	3	3	FALSE	4
+95	Stehr, Stark and Lubowitz	237 Heffernan Drive	4	4	2	2	TRUE	5
+96	Cummerata-Jacobs	412 Farmco Alley	2	7	3	8	TRUE	5
+97	Friesen-Grant	543 Melby Place	2	4	1	1	FALSE	5
+98	Moen and Sons	135 Truax Crossing	4	4	1	6	FALSE	5
+99	Lubowitz, Huels and Ankunding	7618 Garrison Trail	2	5	2	1	TRUE	5
+100	Wiza Group	4 Eggendart Point	5	3	1	3	TRUE	5
