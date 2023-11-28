@@ -1,6 +1,7 @@
 create database dwhotel;
 
 -- tabela de dimensão com dados do hóspede
+DROP TABLE IF EXISTS dim_user;
 create table dim_user (
 	id bigserial primary key,
 	nome varchar (255) not null, -- nome do hospede
@@ -8,6 +9,7 @@ create table dim_user (
 );
 
 -- tabela de dimensão com dados da propriedade alugada
+DROP TABLE IF EXISTS dim_propriedade;
 create table dim_propriedade (
 	id bigserial primary key,
 	titulo  varchar (255) not null, -- um título qualquer para a propriedade
@@ -21,6 +23,7 @@ create table dim_propriedade (
 );
 
 -- tabela de dimensão com dados da hospedagem
+DROP TABLE IF EXISTS dim_hospedagem;
 create table dim_hospedagem (
 	id bigint primary key,
 	data_hora_entrada timestamp not null, --data e hora entrada
@@ -31,6 +34,7 @@ create table dim_hospedagem (
 );
 
 -- tabela de dimensão pagamento
+DROP TABLE IF EXISTS dim_pagamento;
 create table dim_pagamento (
 	id bigint primary key,
 	tipo int not null, --1=cartao, 2-dinheiro, 3-pix, 4-transferencia
@@ -38,6 +42,7 @@ create table dim_pagamento (
 );
 
 -- tabela de dimensão de revisao (nota dada a propriedade pelo hóspede)
+DROP TABLE IF EXISTS dim_revisao;
 create table dim_revisao (
 	id bigint primary key,
 	data_hora_nota timestamp, -- data e hora em que o review foi dado
@@ -45,6 +50,7 @@ create table dim_revisao (
 );
 
 -- tabela de fatos
+DROP TABLE IF EXISTS fat_estadia;
 create table fat_estadia (
 	id bigserial primary key,
 	quantidade_hospedes_adultos int not null, -- quantidade de hospedes adultos durante a estadia
@@ -57,22 +63,21 @@ create table fat_estadia (
 	dim_revisao_id bigint references dim_revisao(id) -- FK revisao
 );
 
-
 copy dim_user (id, nome, telefone) 
-from './tsvs/dim_user.tsv' (FORMAT text, HEADER true);
+from '/var/lib/postgresql/data/tsvs/dim_user.tsv' (FORMAT text, HEADER true);
 
 copy dim_propriedade (id, titulo, "local", tipo, num_quartos, num_banheiros, max_hospedes, permite_pets, pontuacao) 
-from './tsvs/dim_propriedade.tsv' (FORMAT text, HEADER true);
+from '/var/lib/postgresql/data/tsvs/dim_propriedade.tsv' (FORMAT text, HEADER true);
 
 copy dim_hospedagem (id, data_hora_entrada, data_hora_saida, num_dias, data_hora_reserva, origem_reserva)
-from './tsvs/dim_hospedagem.tsv' (FORMAT text, HEADER true);
+from '/var/lib/postgresql/data/tsvs/dim_hospedagem.tsv' (FORMAT text, HEADER true);
 
 copy dim_revisao (id, data_hora_nota, nota)
-from './tsvs/dim_revisao.tsv' (FORMAT text, HEADER true);
+from '/var/lib/postgresql/data/tsvs/dim_revisao.tsv' (FORMAT text, HEADER true);
 
 copy dim_pagamento (id, tipo, bandeira_cartao)
-from './tsvs/dim_pagamento.tsv' (FORMAT text, HEADER true);
+from '/var/lib/postgresql/data/tsvs/dim_pagamento.tsv' (FORMAT text, HEADER true);
 
 copy fat_estadia (id, quantidade_hospedes_adultos, quantidade_hospedes_criancas,valor_estadia,
 dim_user_id, dim_propriedade_id, dim_hospedagem_id, dim_pagamento_id, dim_revisao_id)
-from './tsvs/fat_estadia.tsv' (FORMAT text, HEADER true);
+from '/var/lib/postgresql/data/tsvs/fat_estadia.tsv' (FORMAT text, HEADER true);
